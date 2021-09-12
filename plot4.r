@@ -1,4 +1,5 @@
 png("plot4.png",width = 480, height = 480)
+# sets layout
 par(mfrow = c(2,2))
 # top left
 with(df1,plot(datetime,Global_active_power,type='l',xlab = "",ylab = "Global Active Power"))
